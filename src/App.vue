@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <GradientViewer />
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GradientViewer from './components/GradientViewer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GradientViewer
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html, body {
+    margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: #fff;
 }
 </style>
